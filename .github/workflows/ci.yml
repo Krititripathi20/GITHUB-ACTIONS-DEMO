@@ -19,6 +19,6 @@ jobs:
               pip install -r requirements.txt
           - name : Build Docker image
             run: |
-              docker build -t flask-docker app .
+              docker build -t flask-docker-app .
 
     
